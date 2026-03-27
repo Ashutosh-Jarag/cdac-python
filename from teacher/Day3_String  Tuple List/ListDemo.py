@@ -200,3 +200,16 @@ print(lst2)
 
 lst3=[x[:3] for x in lst]
 print(lst3)
+#-----------------------------------------
+#unique Element
+lst=[1,3,4,5,2,4,3,7,8,9,3]
+print(set(lst)) # 1,3,4,5,2,7,8,9
+
+
+
+lst1=[]
+
+for i in lst:
+    if i not in lst1:
+        lst1.append(i)
+print(lst1)
